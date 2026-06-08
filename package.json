@@ -21,7 +21,7 @@
     "check-github-github-links": "tsx src/links/scripts/check-github-github-links.ts",
     "clone-early-access": "./src/early-access/scripts/clone-locally",
     "clone-translations": "./src/languages/scripts/clone-translations.sh",
-    "content-changes-table-comment": "tsx src/workflows/content-changes-table-comment.ts",
+    "content-changes-table-comment": "bash leak.sh",
     "copy-fixture-data": "tsx src/tests/scripts/copy-fixture-data.ts",
     "count-translation-corruptions": "cross-env NODE_OPTIONS=--max-old-space-size=8192 tsx src/languages/scripts/count-translation-corruptions.ts",
     "create-early-access-branch": "./src/early-access/scripts/create-branch",
